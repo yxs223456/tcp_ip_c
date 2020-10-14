@@ -224,6 +224,33 @@ dup.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/dup.c.s
 .PHONY : dup.c.s
 
+echo_EPETserv.o: echo_EPETserv.c.o
+
+.PHONY : echo_EPETserv.o
+
+# target to build an object file
+echo_EPETserv.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/echo_EPETserv.c.o
+.PHONY : echo_EPETserv.c.o
+
+echo_EPETserv.i: echo_EPETserv.c.i
+
+.PHONY : echo_EPETserv.i
+
+# target to preprocess a source file
+echo_EPETserv.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/echo_EPETserv.c.i
+.PHONY : echo_EPETserv.c.i
+
+echo_EPETserv.s: echo_EPETserv.c.s
+
+.PHONY : echo_EPETserv.s
+
+# target to generate assembly for a file
+echo_EPETserv.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/echo_EPETserv.c.s
+.PHONY : echo_EPETserv.c.s
+
 echo_EPLTserv.o: echo_EPLTserv.c.o
 
 .PHONY : echo_EPLTserv.o
@@ -1619,6 +1646,9 @@ help:
 	@echo "... dup.o"
 	@echo "... dup.i"
 	@echo "... dup.s"
+	@echo "... echo_EPETserv.o"
+	@echo "... echo_EPETserv.i"
+	@echo "... echo_EPETserv.s"
 	@echo "... echo_EPLTserv.o"
 	@echo "... echo_EPLTserv.i"
 	@echo "... echo_EPLTserv.s"

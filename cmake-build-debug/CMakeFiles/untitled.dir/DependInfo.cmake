@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/yangxiushan/CLionProjects/untitled/bound_host1.c" "/Users/yangxiushan/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/bound_host1.c.o"
   "/Users/yangxiushan/CLionProjects/untitled/bound_host2.c" "/Users/yangxiushan/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/bound_host2.c.o"
   "/Users/yangxiushan/CLionProjects/untitled/dup.c" "/Users/yangxiushan/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/dup.c.o"
+  "/Users/yangxiushan/CLionProjects/untitled/echo_EPETserv.c" "/Users/yangxiushan/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/echo_EPETserv.c.o"
   "/Users/yangxiushan/CLionProjects/untitled/echo_EPLTserv.c" "/Users/yangxiushan/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/echo_EPLTserv.c.o"
   "/Users/yangxiushan/CLionProjects/untitled/echo_client.c" "/Users/yangxiushan/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/echo_client.c.o"
   "/Users/yangxiushan/CLionProjects/untitled/echo_epollserv.c" "/Users/yangxiushan/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/echo_epollserv.c.o"
