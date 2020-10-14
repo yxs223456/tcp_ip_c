@@ -35,6 +35,7 @@ int main(int argc, char *argv[])
     if (listen(serv_sock, 5) == -1)
         error_handling("listen() error");
 
+    epfd = epoll_create(EPOLL_SIZE);
     ep_events = malloc(sizeof(struct epoll_event)*EPOLL_SIZE);
     setnonblockingmode(serv_sock);
     event.events = EPOLLIN;
