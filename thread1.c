@@ -11,8 +11,8 @@ int main(int argc, char *argv[])
     {
         puts("pthread_create() error");
         return -1;
-    };
-    sleep(10); puts("end of main");
+    }
+    sleep(2); puts("end of main");
     return 0;
 }
 
