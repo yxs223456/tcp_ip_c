@@ -26,7 +26,7 @@ void * thread_summation(void * arg)
     while(start <= end)
     {
         sum += start;
-        start++
+        start++;
     }
     return NULL;
 }
