@@ -34,7 +34,7 @@ void * thread_inc(void * arg)
     int i;
     for (i=0; i<50000000; i++)
         num += 1;
-    return NULL
+    return NULL;
 }
 
 void * thread_des(void * arg)
