@@ -44,7 +44,7 @@ void * thread_inc(void * arg)
 void * thread_des(void * arg)
 {
     int i;
-    for(i=0; i<50000000; i++)
+    for(i=0; i<5000000; i++)
     {
         pthread_mutex_lock(&mutex);
         num -= 1;
