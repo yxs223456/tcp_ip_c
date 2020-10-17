@@ -36,7 +36,7 @@ void * read(void *arg)
         scanf("%d", &num);
         sem_post(&sem_one);
     }
-    return NULL:
+    return NULL;
 }
 
 void * accu(void * arg)
