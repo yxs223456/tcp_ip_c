@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
         exit(1);
     }
 
-    pthread_mutex_init($mutex, NULL);
+    pthread_mutex_init(&mutex, NULL);
     serv_sock = socket(PF_INET, SOCK_STREAM, 0);
     memset(&serv_adr, 0, sizeof(serv_adr));
     serv_adr.sin_family = AF_INET;
