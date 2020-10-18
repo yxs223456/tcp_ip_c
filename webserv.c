@@ -141,7 +141,7 @@ void send_error(FILE* fp)
     char cnt_len[] = "Content-length:2048\r\n";
     char cnt_type[] = "Content-type:text/html\r\n\r\n";
     char content[] = "<html><head><title>NETWORK</title></head>"
-                     "<body><font size=+5><br>发生错误！查看请求文件名和请求方式！"
+                     "<body><font size=+5><br>400 error!"
                      "</font></body></html>";
 
     fputs(protocol, fp);
